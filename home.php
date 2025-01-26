@@ -1,73 +1,45 @@
-<style type="text/css">
- 
-  .secondrow > .row {
-     border: 1px solid #ddd;
-    /*padding: 5px 30px;*/
-    text-align: center; 
-    margin: 20px;
-    min-height: 50px;
-     border-radius: 50%;
-  }
-  .imgstretch{ 
-    padding: 10px 30px;
-  }
-  .imgstretch img {
-    width: 100%;
-    height: 100px;
-    object-fit: contain;
-  }
+<!-- <h1><?php echo $title;?></h1> -->
 
- 
-</style>
+<div class="col-lg-12">  
+<h4>Mandate</h4>
+    <p> A user-friendly e-learning website that provides a simple and effective platform for students to engage in online learning. The website will offer a variety of courses, interactive content, quizzes, and a user-friendly interface. It will be designed with a focus on simplicity and ease of use to ensure that users can access educational materials and resources with minimal effort.</p> 
+</div>
+<div  class="col-lg-6">
+<h4>Objectives</h4> 
+   <ol>
+      <li>Create an environment of shared leadership and responsibilities with competent administrator.</li>
+      <li>Provide relevant trainings and seminar to faculty, staff, and student.</li>
+      <li>Produce highly competitive graduates.</li>
+      <li>Conduct relevant and updated researches</li>
+      <li>Extend financial support and manpower for outreach activities.</li> 
+   </ol> 
+  <h4>Goals</h4> 
+  <ol>
+    <li>Globally competitive graduates</li>  
+    <li>Institutionalize research culture</li> 
+    <li>Responsive and sustainable extension services</li> 
+    <li>Maximized profit of variable agro-industrial business ventures</li>  
+    <li>Effective and efficient administration </li>  
+  </ol>
 
-<div class="container">
-  <h3>Administrator Panel:Welcome <?php echo $_SESSION['NAME'];?></h3>
- 
-  <div class="row"> 
-    <div class="col-md-6 secondrow">
-      <div class="row">
-        <a href="<?php echo web_root; ?>admin/modules/lesson/index.php" title="Courses"> 
-        <div class="imgstretch">
-          <img src="<?php echo web_root; ?>admin/adminMenu/images/lesson1.gif"> 
-         </div>
-         <label>Courses</label>
-        </a>
-      </div>
-    </div> 
-    <div class="col-md-6 secondrow">
-      <div class="row">
-        <a href="<?php echo web_root; ?>admin/modules/exercises/index.php" title="Exercises"> 
-        <div class="imgstretch">
-          <img src="<?php echo web_root; ?>admin/adminMenu/images/exercises.jpg"> 
-         </div>
-         <label>Exercises</label>
-        </a>
-      </div>
-    </div> 
-  </div>
-    <div class="row">
-       <?php if($_SESSION['TYPE']=="Administrator"){ ?>
-    <div class="col-md-6 secondrow">
-      <div class="row">
-        <a href="<?php echo web_root; ?>admin/modules/user/index.php" title="Manage Users"> 
-        <div class="imgstretch">
-          <img src="<?php echo web_root; ?>admin/adminMenu/images/user.png"> 
-         </div>
-         <label>Manage Users</label>
-        </a>
-      </div>
-    </div>
-  <?php } ?>
-    <!-- <div class="col-md-6 secondrow">
-      <div class="row">
-        <a href="<?php echo web_root; ?>admin/modules/report/index.php" title="Reports"> 
-        <div class="imgstretch">
-          <img src="<?php echo web_root; ?>admin/adminMenu/images/report1.png"> 
-         </div>
-         <label>Reports</label>
-        </a>
-      </div>
-    </div>  -->
-  </div>
   
 </div>
+<div  class="col-lg-6">
+  <h4>Guiding Principles</h4> 
+    <ul>
+      <li>Academic Freedom </li>
+      <li>Responsibility</li>
+      <li> Academic Standards</li>  
+    </ul>
+<h4>Core Values</h4>
+  <ul>
+    <li>God-Centered</li>
+    <li>Excellence</li>
+    <li>Integrity</li>
+    <li>Transparency and Accountability</li>
+    <li>Dedication to Quality Service</li>  
+  </ul> 
+
+</div>
+ 
+
